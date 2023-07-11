@@ -1,26 +1,79 @@
-Engineering materials
+Engineering Documentation | Team_Hope
 ====
 
-This repository contains engineering materials of a self-driven vehicle's model participating in the WRO Future Engineers competition in the season 2022.
+This repository contains engineering materials of Robogee, a self-driven vehicle model from Team Team_Hope, participating in the WRO Future Engineers competition in the season of 2023.
 
-## Content
 
-* `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
-* `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
-* `video` contains the video.md file with the link to a video where driving demonstration exists
-* `schemes` contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
-* `src` contains code of control software for all components which were programmed to participate in the competition
-* `models` is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
-* `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
+## Team Members
+In participating in the WRO Fuutre-Engineers 2023 our team conssits of:
+
+* `Mohammad Marrwa`(The Team's Coach)-Email:       @gmail.com
+* `Ahmad Shurbaji`- Email: Ahmad.Shurbaji0@gmail.com 
+* `Mohammad Al-Sabag`- Email: eldeenseraj64@gmail.com 
+* `Haitham Jammour`-Email: Haithamjaamour@gmail.com
+
+
+
+
+
+## Repository Overview
+
+* `t-photos` contains our team's photo.
+* `v-photos` contains photos of the robot from all directions.
+* `schemes` contains the electrical systems schematics.
+* `src` contains the code of control software for all components of Robogee.
+* `models` is for the 3D sketch that has been used.
+* `other` is for other essential photos and files.
 
 ## Introduction
 
-_This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
+At the onset of our preparations for the competition, we embarked on extensive research to explore various options related to the design, programming, and algorithms for our self-driving car. After thorough investigation and analysis, we formulated a comprehensive plan to guide our development process. 
 
-## How to prepare the repo based on the template
 
-_Remove this section before the first commit to the repository_
+## Program arrangement and Algorithm Planning
 
-1. Clone this repo by using the `git clone` functionality.
-2. Remove `.git` directory
-3. [Initialize a new public repository on GitHub](https://github.com/new) by following instructions from "create a new repository on the command line" section (appeared after pressing "Create repository" button).
+Our self-driving robot integrates a high-resolution USB camera, Raspberry Pi, and Arduino Uno to achieve autonomous navigation. The USB camera captures visual data, while the Raspberry Pi processes it using computer vision algorithms for object detection and lane tracking. The Arduino Uno controls actuators and collects sensory information. This synchronized system enables our robot to perceive its environment, make informed decisions, and navigate autonomously. By leveraging these advanced components. The code is then divided into three major parts.
+
+
+
+### Part 1 - Detecting run direction:
+The first part determines the direction of the robot run. The robot moves slowly through the first straightforward section to ensure it can safely detect the direction of the run with its sonar sensors. Once it detects a large distance (>90cm) from one of the sensors, it marks the direction as “L” - clockwise, or “R” - anti-clockwise accordingly.
+
+
+
+### Part 2 - Completing the run 
+
+
+
+
+
+
+## Mechanical Desigen
+
+At the forefront of our self-driving car project, we embarked on the mechanical design phase with a clear vision in mind: to create a robust and efficient vehicle that would excel in autonomous navigation. This phase marked a crucial step in translating our conceptual ideas into a tangible, functional reality.
+
+As we delved into the mechanical design process, we were presented with a critical decision: to either procure a pre-built car or embark on the ambitious task of designing and manufacturing our own vehicle. After careful consideration and evaluation of the project's scope and requirements, we opted to take on the challenge of designing and printing our own car.
+![WhatsApp Image 2023-06-21 at 1 03 45 PM](https://github.com/h0z1a1/Team_Hope_WRO/assets/137758764/045fa6f5-a6ef-46c7-9409-29dc318c0823)
+![WhatsApp Image 2023-06-21 at 1 03 59 PM](https://github.com/h0z1a1/Team_Hope_WRO/assets/137758764/bd36fbb6-7573-40d0-9f19-0deb82af83c4)
+
+
+## Parts List:
+
+
+* Raspberry Pi 3
+
+* Arduino Uno
+
+* MPU6050
+
+* 2x Adafruit HC-SR04 Ultrasonic Sensors
+
+* 12V DC Motor
+
+*  REV Smart Robot Servo
+
+* 3x 3.7V lithium battery
+
+* DC to DC converter
+
+
