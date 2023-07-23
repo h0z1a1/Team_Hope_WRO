@@ -42,26 +42,29 @@ As we delved into the mechanical design process, we were presented with a critic
 
 After completing the initial prototype and installing the necessary components in the car, we encountered numerous challenges across different areas, such as sourcing suitable sensors, dealing with power supply issues, and overall inefficiency. As a result, we made the strategic decision to transition to an open-source design utilizing aluminum extrusion.
 This move offers several advantages, most notably access to a vibrant and supportive community of 
-developers.https://github.com/h0z1a1/Team_Hope_WRO/blob/813c5d2b3da322c21aa2c08c1a3def9fc738b66c/v-photos/Down.jpeg
+developers.
+
+https://github.com/h0z1a1/Team_Hope_WRO/blob/813c5d2b3da322c21aa2c08c1a3def9fc738b66c/v-photos/Down.jpeg
 
 
-## Parts List:
+## Decision-Making
+Our self-driving robot utilizes cutting-edge technology, incorporating the Rev Control Hub and distance sensors for enhanced autonomous navigation. The Rev Control Hub serves as the central brain, facilitating seamless communication between the various components. Additionally, we have integrated distance sensors both in the front and on the right and left sides of the robot, further augmenting its perception capabilities.
 
+Key components of our self-driving robot include:
 
-* Raspberry Pi 3
+Rev Control Hub: The heart of our system, the Rev Control Hub, acts as the central control unit that synchronizes all operations. It effectively manages data flow, actuator control, and sensor readings, ensuring smooth coordination among the various subsystems.
 
-* Arduino Uno
+High-Resolution USB Camera: Our robot is equipped with a high-resolution USB camera that captures visual data from its surroundings. The camera's feed is directed to the Rev Control Hub for processing and analysis.
 
-* MPU6050
+Raspberry Pi: Integrated with the Rev Control Hub, the Raspberry Pi plays a critical role in our robot's autonomy. It utilizes advanced computer vision algorithms to perform real-time object detection and lane tracking based on the visual data received from the camera.
 
-* 2x Adafruit HC-SR04 Ultrasonic Sensors
+Arduino Uno: The Arduino Uno complements the Rev Control Hub by controlling actuators and collecting sensory information. It acts as an essential interface to various components, enhancing the robot's capabilities to interact with its environment effectively.
 
-* 12V DC Motor
+Distance Sensors: We have strategically placed distance sensors on the front, right, and left sides of the robot. These sensors provide valuable information about obstacles and distances to surrounding objects. The data collected from these sensors is transmitted to the Rev Control Hub for decision-making and navigation.
 
-*  REV Smart Robot Servo
+Our synchronized system enables the robot to perceive its environment accurately, make informed decisions based on real-time data, and navigate autonomously. By leveraging the advanced components of the Rev Control Hub and the precision of distance sensors, our self-driving robot achieves remarkable reliability and efficiency in various scenarios.
 
-* 3x 3.7V lithium battery
+The codebase is organized into three major parts, each corresponding to a specific aspect of the robot's functionality: sensor integration and data processing, decision-making algorithms, and actuator control. The seamless collaboration between these components empowers our robot to navigate complex environments and accomplish its autonomous objectives effectively. Through our work, we aim to contribute to the advancement of self-driving technology and inspire further innovation in the robotics community.
 
-* DC to DC converter
 
 
