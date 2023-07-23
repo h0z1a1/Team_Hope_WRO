@@ -27,22 +27,6 @@ In participating in the WRO Fuutre-Engineers 2023 our team conssits of:
 At the onset of our preparations for the competition, we embarked on extensive research to explore various options related to the design, programming, and algorithms for our self-driving car. After thorough investigation and analysis, we formulated a comprehensive plan to guide our development process. 
 
 
-## Program arrangement and Algorithm Planning
-
-Our self-driving robot integrates a high-resolution USB camera, Raspberry Pi, and Arduino Uno to achieve autonomous navigation. The USB camera captures visual data, while the Raspberry Pi processes it using computer vision algorithms for object detection and lane tracking. The Arduino Uno controls actuators and collects sensory information. This synchronized system enables our robot to perceive its environment, make informed decisions, and navigate autonomously. By leveraging these advanced components. The code is then divided into three major parts.
-
-
-
-### Part 1 - Detecting run direction:
-The first part determines the direction of the robot run. The robot moves slowly through the first straightforward section to ensure it can safely detect the direction of the run with its sonar sensors. Once it detects a large distance (>90cm) from one of the sensors, it marks the direction as “L” - clockwise, or “R” - anti-clockwise accordingly.
-
-
-
-### Part 2 - Completing the run 
-
-
-
-
 
 
 ## Mechanical Desigen
