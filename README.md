@@ -18,11 +18,8 @@ In participating in the WRO Fuutre-Engineers 2023 our team conssits of:
 
 ## Repository Overview
 
-* `t-photos` contains our team's photo.
 * `v-photos` contains photos of the robot from all directions.
-* `schemes` contains the electrical systems schematics.
 * `src` contains the code of control software for all components of Robogee.
-* `models` is for the 3D sketch that has been used.
 * `other` is for other essential photos and files.
 
 ## Introduction
@@ -53,9 +50,14 @@ The first part determines the direction of the robot run. The robot moves slowly
 At the forefront of our self-driving car project, we embarked on the mechanical design phase with a clear vision in mind: to create a robust and efficient vehicle that would excel in autonomous navigation. This phase marked a crucial step in translating our conceptual ideas into a tangible, functional reality.
 
 As we delved into the mechanical design process, we were presented with a critical decision: to either procure a pre-built car or embark on the ambitious task of designing and manufacturing our own vehicle. After careful consideration and evaluation of the project's scope and requirements, we opted to take on the challenge of designing and printing our own car.
+
 ![WhatsApp Image 2023-06-21 at 1 03 45 PM](https://github.com/h0z1a1/Team_Hope_WRO/assets/137758764/045fa6f5-a6ef-46c7-9409-29dc318c0823)
+
+
 ![WhatsApp Image 2023-06-21 at 1 03 59 PM](https://github.com/h0z1a1/Team_Hope_WRO/assets/137758764/bd36fbb6-7573-40d0-9f19-0deb82af83c4)
 
+After completing the initial prototype and installing the necessary components in the car, we encountered numerous challenges across different areas, such as sourcing suitable sensors, dealing with power supply issues, and overall inefficiency. As a result, we made the strategic decision to transition to an open-source design utilizing aluminum extrusion.
+This move offers several advantages, most notably access to a vibrant and supportive community of developers.
 
 ## Parts List:
 
