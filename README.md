@@ -57,7 +57,9 @@ As we delved into the mechanical design process, we were presented with a critic
 ![WhatsApp Image 2023-06-21 at 1 03 59 PM](https://github.com/h0z1a1/Team_Hope_WRO/assets/137758764/bd36fbb6-7573-40d0-9f19-0deb82af83c4)
 
 After completing the initial prototype and installing the necessary components in the car, we encountered numerous challenges across different areas, such as sourcing suitable sensors, dealing with power supply issues, and overall inefficiency. As a result, we made the strategic decision to transition to an open-source design utilizing aluminum extrusion.
-This move offers several advantages, most notably access to a vibrant and supportive community of developers.
+This move offers several advantages, most notably access to a vibrant and supportive community of 
+developers.https://github.com/h0z1a1/Team_Hope_WRO/blob/813c5d2b3da322c21aa2c08c1a3def9fc738b66c/v-photos/Down.jpeg
+
 
 ## Parts List:
 
